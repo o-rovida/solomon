@@ -7,10 +7,10 @@ with open('access.json') as f:
 
 app = Flask(__name__)
 
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = access['MYSQL_HOST']
 app.config['MYSQL_USER'] = access['MYSQL_USER']
 app.config['MYSQL_PASSWORD'] = access['MYSQL_PASSWORD']
-app.config['MYSQL_DB'] = 'solomon'
+app.config['MYSQL_DB'] = access['MYSQL_DB']
 
 transactions = []
 

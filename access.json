@@ -1,2 +1,6 @@
-{"MYSQL_USER": "pregador",
-"MYSQL_PASSWORD": "reinodeIsrael"}
+{
+    "MYSQL_HOST":"localhost",   
+    "MYSQL_USER": "pregador",
+    "MYSQL_PASSWORD": "reinodeIsrael",
+    "MYSQL_DB":"solomon"
+}
