@@ -1,0 +1,21 @@
+body {
+    font-family: 'Brandon Grotesque';
+}
+
+div {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+.icon {
+    width: 500px;
+    float: right;
+}
